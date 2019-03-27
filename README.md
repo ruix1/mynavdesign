@@ -1,4 +1,4 @@
 # mynavdesign
 Running command line:
-   npm install 
+   npm install <br>
    ng serve --open

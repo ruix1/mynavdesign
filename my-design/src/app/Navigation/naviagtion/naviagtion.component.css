@@ -1,0 +1,57 @@
+@import "../../../assets/font/font.css";
+
+.main-nav{
+    position: relative;
+    background: black;
+    height: 50px;
+}
+
+.nav-left-button{
+    height: 25px;
+    width: 25px;
+    position: absolute;;
+    top: 50%;
+    left: 26px;
+    transform: translate(-50%, -50%);
+}
+
+.nav-content{
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-icon{
+    padding: 3px;
+    color: white;
+    float: left;
+}
+
+.content-text{
+    padding: 3px;
+    color: white;
+    float: left;
+    font-family: myriad_set_pro;
+    transform: translateY(15%);
+}
+
+.nav-search{
+    height: 25px;
+    width: 25px;
+    color:white;
+    position: absolute;;
+    top: 50%;
+    right: 54px;
+    transform: translate(50%, -50%);
+}
+
+.nav-alert{
+    height: 25px;
+    width: 25px;
+    color:white;
+    position: absolute;;
+    top: 50%;
+    right: 26px;
+    transform: translate(50%, -50%);
+}

@@ -1,0 +1,42 @@
+@import "../../../assets/font/font.css";
+
+.element{
+    position: relative;
+    background: black;
+    height: 50px;
+    border-left:solid 5px;
+    border-bottom: solid 1px grey;
+}
+.title_text{
+    position: absolute;
+    font-size:16pt;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+    font-family: myriad_set_pro;
+}
+.child_panel{
+    position: relative;
+    background: black;
+    height: 40px;
+}
+.child_element{
+    position: absolute;
+    color:#979797;
+    font-size:16pt;
+    top: 50%;
+    left: 65px;
+    transform: translateY(-50%);
+    font-family: myriad_set_pro;
+}
+.child_bottom{
+    background: black;
+    height: 15px;
+    border-bottom: solid 1px gray;
+}
+.coll_btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 26px;
+}

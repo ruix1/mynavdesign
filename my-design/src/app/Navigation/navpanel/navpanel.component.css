@@ -1,0 +1,11 @@
+#nav-panel{
+    background: black;
+    height: 100vh ;
+    
+}
+
+@media screen and (min-width: 514px) {
+    #nav-panel{
+        width: 500px;
+    }
+}
